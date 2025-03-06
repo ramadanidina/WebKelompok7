@@ -7,6 +7,8 @@
   - 📗 Katalog
   - 📕 Portofolio
   - 📘 Testimoni
+  - 📙 Tentang Kami
+    
 - **Folder Basic** 📁
   - 🔧 Codingan composer
 
@@ -25,6 +27,7 @@ For detailed documentation, refer to the files linked below (written in Indonesi
 - 📗 [Katalog](#)
 - 📕 [Portofolio](#)
 - 📘 [Testimoni](#)
+- 📙 [Tentang Kami](#)
 
 ---
 
@@ -41,7 +44,6 @@ This repository is the collaborative work of **Kelompok 7** for the **Web Creati
 - 📌 Initial project documentation.
 - 📌 Database features.
 - 📌 Group project report.
-- 📌 System usage manual.
 
 We hope this repository provides a clear understanding of our project. 😊
 
