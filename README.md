@@ -52,7 +52,7 @@ We hope this repository provides a clear understanding of our project. 😊
 ## 🚀 How to Use
 1. Clone this repository locally:
    ```bash
-   (https://github.com/ramadanidina/WebKelompok7.git)
+   (git clone https://github.com/ramadanidina/WebKelompok7.git)
    ```
 2. Open the document files in the "WebKelompok7" folder.
 3. Follow the system usage manual for further information.
