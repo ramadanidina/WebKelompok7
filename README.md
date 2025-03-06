@@ -1,11 +1,10 @@
 # WebKelompok7
-# 🌟 UAS Kelompok 7 🌟
+# Creative.Wae
 
 ## 📂 Daftar Isi Folder
-- **Dokumen UAS** 📄
-  - 📘 Dokumentasi Awal Proyek Pengembangan Basis Data Toko Risky Bawang dan Palawija.pdf
-  - 📙 Fitur Database[1].pdf
-  - 📗 LAPORAN TUGAS UAS kelompok 2.pdf
+  - 📘 Halaman Login
+  - 📙 Home Page / Halaman Utama
+  - 📗 Katalog
   - 📕 MANUAL PENGGUNAAN SISTEM MANAJEMEN.pdf
 - **Folder Basic** 📁
   - 🔧 Codingan composer
@@ -30,8 +29,8 @@ For detailed documentation, refer to the files linked below (written in Indonesi
 ## 🤝 Contributors
 | Contributor       | GitHub Profile                                  |
 |-------------------|------------------------------------------------|
-| **Adia Sandra**  | [🌐 Profile](https://github.com/windaayu2929) |
-| **Yessica**      | [🌐 Profile](https://github.com/ResankoIM)    |
+| **Resanko Isnaudhio**  | [🌐 Profile](https://github.com/ResankoIM) |
+| **Winda Ayu**      | [🌐 Profile](https://github.com/windaayu2929)    |
 
 ---
 
