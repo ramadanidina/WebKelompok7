@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Portofolio - Creative.Wae</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f8fb;
+            color: #333;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(90deg, #007bff, #0056b3);
+            color: white;
+            padding: 40px 20px;
+            font-size: 24px;
+            font-weight: bold;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            width: 80%;
+            margin: auto;
+        }
+        .portfolio-container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            flex-grow: 1;
+        }
+        .portfolio-item {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio-item img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .portfolio-description {
+            text-align: left;
+        }
+        footer {
+            background: linear-gradient(90deg, #0056b3, #003d80);
+            color: white;
+            padding: 20px 20px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            margin-top: auto;
+            width: 80%;
+            margin: auto;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        nav button:hover {
+            background-color: #ff9800;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span>Detail Portofolio</span>
+    </header>
+    <nav>
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('paket')">Katalog</button>
+        <button onclick="showSection('portofolio')">Portofolio</button>
+        <button onclick="showSection('member')">Member</button>
+        <button onclick="showSection('testimoni')">Testimoni</button>
+        <button onclick="showSection('ketentuan')">Ketentuan</button>
+        <button onclick="showSection('tentang')">Tentang Kami</button>
+        <button onclick="showSection('kontak kami')">Kontak Kami</button>
+        <button onclick="showSection('pesan sekarang')">Pesan Sekarang</button>
+    </nav>
+    <div class="portfolio-container">
+        <div class="portfolio-item">
+            <img src="gambar/Konten 1 - KERIPIK TEMPE New Product Nirmala.jpg" alt="Project 1">
+            <div class="portfolio-description">
+                <h3>Desain Sosial Media untuk UMKM</h3>
+                <p>Membantu UMKM meningkatkan branding mereka melalui desain sosial media yang menarik dan profesional.</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="gambar/web.png" alt="Project 2">
+            <div class="portfolio-description">
+                <h3>Pembuatan Website E-Commerce</h3>
+                <p>Membangun website e-commerce modern yang responsif dan mudah digunakan untuk meningkatkan penjualan online.</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="gambar/South Kings Logo.png" alt="Project 3">
+            <div class="portfolio-description">
+                <h3>Branding dan Logo untuk Startup</h3>
+                <p>Merancang identitas visual yang unik dan profesional untuk startup teknologi.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Creative.Wae. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>

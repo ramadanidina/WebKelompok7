@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategori Portofolio - Creative.Wae</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f8fb;
+            color: #333;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(90deg, #007bff, #0056b3);
+            color: white;
+            padding: 40px 20px;
+            font-size: 24px;
+            font-weight: bold;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            width: 80%;
+            margin: auto;
+        }
+        .category-container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            flex-grow: 1;
+        }
+        .category-item {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .category-item:hover {
+            transform: scale(1.05);
+        }
+        .category-item a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .category-images img {
+            width: 60px;
+            height: 60px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        footer {
+            background: linear-gradient(90deg, #0056b3, #003d80);
+            color: white;
+            padding: 20px 20px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            margin-top: auto;
+            width: 80%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span>PORTOFOLIO</span>
+    </header>
+    <div class="category-container">
+        <div class="category-item">
+            <a href="portfolio_detail.html?category=socialmedia">Desain Sosial Media</a>
+            <div class="category-images">
+                <img src="gambar/Feed 2.jpg" alt="Social Media 1">
+                <img src="gambar/Feed 2.jpg" alt="Social Media 2">
+                <img src="gambar/Feed 2.jpg" alt="Social Media 3">
+            </div>
+        </div>
+        <div class="category-item">
+            <a href="portfolio_detail.html?category=website">Pembuatan Website</a>
+            <div class="category-images">
+                <img src="gambar/Konten 1 - KERIPIK TEMPE New Product Nirmala.jpg" alt="Website 1">
+                <img src="gambar/Konten 1 - KERIPIK TEMPE New Product Nirmala.jpg" alt="Website 2">
+                <img src="gambar/Konten 1 - KERIPIK TEMPE New Product Nirmala.jpg" alt="Website 3">
+            </div>
+        </div>
+        <div class="category-item">
+            <a href="portfolio_detail.html?category=branding">Branding & Identitas</a>
+            <div class="category-images">
+                <img src="gambar/Lylia Starlight.jpg" alt="Branding 1">
+                <img src="gambar/Lylia Starlight.jpg" alt="Branding 2">
+                <img src="gambar/Lylia Starlight.jpg" alt="Branding 3">
+            </div>
+        </div>
+        <div class="category-item">
+            <a href="portfolio_detail.html?category=videoproduction">Produksi Video</a>
+            <div class="category-images">
+                <img src="gambar/Timnas U23 Goes To Semi Final fix.jpg" alt="Video 1">
+                <img src="gambar/Timnas U23 Goes To Semi Final fix.jpg" alt="Video 2">
+                <img src="gambar/Timnas U23 Goes To Semi Final fix.jpg" alt="Video 3">
+            </div>
+        </div>
+        <div class="category-item">
+            <a href="portfolio_detail.html?category=advertising">Periklanan Digital</a>
+            <div class="category-images">
+                <img src="gambar/Post - Happy Eid al-Adha 1445 H FIXED.jpg" alt="Advertising 1">
+                <img src="gambar/Post - Happy Eid al-Adha 1445 H FIXED.jpg" alt="Advertising 2">
+                <img src="gambar/Post - Happy Eid al-Adha 1445 H FIXED.jpg" alt="Advertising 3">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Creative.Wae. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
