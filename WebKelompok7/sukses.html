@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transaksi Berhasil - Creative.Wae</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f8fb;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: linear-gradient(90deg, #007bff, #0056b3);
+      color: white;
+      padding: 30px 20px;
+      font-size: 24px;
+      font-weight: bold;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    nav .nav-button {
+      background-color: #0056b3;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    nav .nav-button:hover {
+      background-color: #ff9800;
+    }
+
+    main {
+      flex: 1; /* Biarkan konten tumbuh & dorong footer ke bawah */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .success-box {
+      background: white;
+      padding: 30px;
+      max-width: 600px;
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      text-align: center;
+      animation: fadeIn 0.6s ease-in-out;
+    }
+
+    .success-box h1 {
+      color: #28a745;
+      font-size: 36px;
+    }
+
+    .success-box p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .success-box a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .success-box a:hover {
+      background-color: #ff9800;
+    }
+
+    footer {
+      background: radial-gradient(circle, #0056b3, #003d80);
+      color: white;
+      padding: 20px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      text-align: center;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Creative.Wae - Pembayaran Sukses
+  </header>
+
+<nav>
+        <a href="menu.html" class="nav-button">Home</a>
+        <a href="katalog.php" class="nav-button">Katalog</a>
+        <a href="porto1.php" class="nav-button">Portofolio</a>
+        <a href="testi.php" class="nav-button">Testimoni</a>
+        <a href="ketentuan.html" class="nav-button">Ketentuan</a>
+        <a href="tentang_kami.html" class="nav-button">Tentang & Kontak</a>
+        <a href="pemesanan.html" class="nav-button">Pesan Sekarang</a>
+    </nav>
+
+  <main>
+    <div class="success-box">
+      <h1>🎉 Pembayaran Berhasil!</h1>
+      <p>Terima kasih telah melakukan pembayaran. Tim kami akan segera memproses pesanan Anda.</p>
+      <a href="menu.html">Kembali ke Beranda</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Creative.Wae. Semua Hak Dilindungi.</p>
+  </footer>
+</body>
+</html>

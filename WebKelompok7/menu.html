@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative.Wae - Digital Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: large;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f8fb;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(90deg, #007bff, #0056b3);
+            color: white;
+            padding: 40px 20px;
+            font-size: 40px;
+            font-weight: bold;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            width: 80%;
+            margin: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        a.nav-button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        a.nav-button:hover {
+            background-color: #ff9800;
+        }
+
+        .content {
+            padding: 20px;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 1200px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        #paket { background: linear-gradient(120deg, #ffffff, #cce5ff); }
+        #portofolio { background: linear-gradient(120deg, #cce5ff, #99ccff); }
+        #katalog { background: linear-gradient(120deg, #99ccff, #80bfff); }
+        #ketentuan { background: linear-gradient(120deg, #80bfff, #4da6ff); }
+        #tentang { background: linear-gradient(120deg, #4da6ff, #007bff); color: white; }
+        .content img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #ff9800;
+        }
+        footer {
+            background: radial-gradient(circle, #0056b3, #003d80);
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            width: 80%;
+            margin: auto;
+        }
+        .footer-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .footer-list li {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        .misi-card {
+        background-color: white;
+        border-radius: 12px;
+        padding: 15px 20px;
+        font-size: 17px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        transition: transform 0.2s ease, background-color 0.3s ease;
+        cursor: default;
+        }
+        .misi-card:hover {
+            background-color: #d9f2ff;
+            transform: scale(1.02);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        Creative.Wae
+    </header>
+    <nav>
+        <a href="menu.html" class="nav-button">Home</a>
+        <a href="katalog.php" class="nav-button">Katalog</a>
+        <a href="porto1.php" class="nav-button">Portofolio</a>
+        <a href="testi.php" class="nav-button">Testimoni</a>
+        <a href="ketentuan.html" class="nav-button">Ketentuan</a>
+        <a href="tentang_kami.html" class="nav-button">Tentang & Kontak</a>
+        <a href="pemesanan.php" class="nav-button">Pesan Sekarang</a>
+    </nav>
+      
+    
+    <main>
+        <section id="paket" class="content">
+            <img src="gambar/banner kereatip.png" alt="Paket Digital Marketing">
+            <h2>Paket Digital Marketing</h2>
+            <p>Satu langkah lebih dekat menuju karya luar biasa!</p>
+            <a href="katalog.php" class="nav-button">Lihat Katalog</a>
+        </section>        
+
+        <section id="portofolio" class="content" style="display: none;">
+            <img src="portofolio.jpg" alt="Portofolio Kami">
+            <h2>Portofolio Kami</h2>
+            <p>Proyek yang telah kami tangani.</p>
+            <button>Lihat Portofolio</button>
+        </section>
+        
+        <section id="katalog" class="content" style="display: none;">
+            <img src="katalog.jpg" alt="Katalog Produk">
+            <h2>Katalog</h2>
+            <p>Lihat berbagai layanan yang kami tawarkan.</p>
+            <button>Lihat Katalog</button>
+        </section>
+        
+        <section id="ketentuan" class="content" style="display: none;">
+            <img src="ketentuan.jpg" alt="Ketentuan Layanan">
+            <h2>Ketentuan</h2>
+            <p>Baca ketentuan layanan sebelum menggunakan jasa kami.</p>
+        </section>
+        
+        <section id="pesan sekarang" class="content" style="display: none;">
+            <img src="pesan sekarang.jpg" alt="Pesan Sekarang">
+            <h2>Tentang Creative.Wae</h2>
+            <p>Kami adalah agensi digital marketing yang siap membantu bisnis Anda berkembang.</p>
+        </section>
+
+        <section id="tentang" class="content" style="display: none;">
+            <img src="tentang.jpg" alt="Tentang Kami">
+            <h2>Tentang Creative.Wae</h2>
+            <p>Kami adalah agensi digital marketing yang siap membantu bisnis Anda berkembang.</p>
+        </section>
+
+        <section id="visi-misi" class="content" style="background: linear-gradient(120deg, #e0f7ff, #b3e5fc); color: #003d66;">
+            <h2 style="font-size: 32px; margin-bottom: 10px;">✨ Visi Kami</h2>
+            <div style="background-color: white; border-radius: 15px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 30px;">
+                <p style="font-size: 18px; line-height: 1.6;">
+                    🎯 <strong>Menjadi mitra terpercaya</strong> dalam dunia digital marketing yang mampu meningkatkan daya saing UMKM lokal melalui layanan kreatif, inovatif, dan berkualitas tinggi.
+                </p>
+            </div>
+        
+            <h2 style="font-size: 32px; margin-bottom: 10px;">🚀 Misi Kami</h2>
+            <div style="display: grid; gap: 15px;">
+                <div class="misi-card">💼 Memberikan layanan digital marketing berbasis multimedia yang profesional dan efektif.</div>
+                <div class="misi-card">📱 Membantu UMKM lokal dalam membangun branding yang kuat di media sosial dan internet.</div>
+                <div class="misi-card">👨‍💻 Mengembangkan tim kreatif yang solid dan adaptif terhadap perkembangan teknologi.</div>
+                <div class="misi-card">💡 Menyediakan solusi pemasaran yang tepat sasaran dan terjangkau bagi pelaku usaha kecil dan menengah.</div>
+            </div>
+        </section>              
+    </main>
+    
+    <footer>
+        <h3>Kenapa Memilih Kami?</h3>
+        <ul class="footer-list">
+            <li>✅ Layanan Profesional</li>
+            <li>✅ Strategi Digital yang Terbukti</li>
+            <li>✅ Harga Terjangkau</li>
+            <li>✅ Tim Berpengalaman</li>
+        </ul>
+        <p>&copy; 2025 Creative.Wae. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.content').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
